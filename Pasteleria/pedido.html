@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pasteleria.css">
+
+    <title>Realizar Pedido</title>
+</head>
+<body>
+   <!-- Formularios -->
+   <h2>Ejemplo de Formulario</h2>
+   <form action="/accion.js" id="form1" method="post">
+       <label for="nombre">Nombre:</label><br>
+       <input type="text" id="nombre" name="nombre" placeholder="Ingrese tu nombre" class="inputStyle"><br><br>
+
+       <label for="apellido">Apellido:</label><br>
+       <input type="text" id="apellido" name="apellido" form="form1" placeholder="Ingresido"class="inputStyle"><br><be su apellr> 
+
+       <label for="telefono">Teléfono:</label><br>
+    <input type="tel" id="telefono" name="telefono" maxlength="10" placeholder="Ingrese su telefono"class="inputStyle"><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo"class="inputStyle"><br><br>
+
+    <label for="descripcion">Descripcion del pedido</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Descripcion de su pedido:"class="inputStyle">
+        </textarea>
+        <br><br>
+
+        <h2>Seleccion de sabores</h2><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Fresa">
+        <label for="topping1">Fresa</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Chocolate">
+        <label for="topping2">Chocolate</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Mazapan">
+        <label for="topping3">Mazapan</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Vainilla">
+        <label for="topping4">Vainilla</label><br><br>
+
+        <h2>Seleccion de sabores</h2><br>
+        <input type="checkbox" id="Adornos1" name="Adornos1" value="Nombre personalizado">
+        <label for="Adornos1">Nombre personalizado</label><br>
+        <input type="checkbox" id="Adornos2" name="Adornos2" value="Velas">
+        <label for="Adornos2">Velas</label><br>
+        <input type="checkbox" id="Adornos3" name="Adornos3" value="Tematico">
+        <label for="Adornos3">Tematico</label><br><br>
+       
+
+
+       <input type="submit" class="btnStyle">
+       <input type="reset" class="btnStyle">
+
+
+   </form>
+   
+
+   
+</body>
+</html>
